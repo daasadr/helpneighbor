@@ -8,7 +8,7 @@ type AdCardProps = {
 export default function AdCard({ ad }: AdCardProps) {
     return (
         <article className={styles.card}>
-            <h2 clasName={styles.title}>{ad.title}</h2>
+            <h2 className={styles.title}>{ad.title}</h2>
             <p className={styles.description}>{ad.description}</p>
         </article>
     );
