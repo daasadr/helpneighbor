@@ -5,7 +5,7 @@ export const ads: Ad[] = [
         id: "1",
         title: "Shopping for Saturday ",
         description: "I'm looking for someone to do some grocery shopping for me on Saturday morning.",
-        category: "Shopping",
+        category: "shopping",
     },
     {
         id: "2",

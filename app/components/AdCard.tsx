@@ -5,7 +5,7 @@ type AdCardProps = {
     ad : Ad;
 };
 
-export default function AdCard({ ad }: AdCardrops) {
+export default function AdCard({ ad }: AdCardProps) {
     return (
         <article className={styles.card}>
             <h2 clasName={styles.title}>{ad.title}</h2>
